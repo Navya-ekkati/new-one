@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+
+ nav a{
+ text-decoration: none;
+ color:white;
+ 
+ }
+ i{
+    color: white;
+ }
+ section>ul{
+    background-color: black;
+ 
+ }
+  ul i{
+    padding: 10px;
+  }
+  h3{
+    color: white;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .item1{
+    background-color: green;
+    color: white;
+    margin: auto;
+    display: inline-block;
+    /* margin: 50px; */
+    font-size: 30px;
+  }
+  .item2{
+    background-color: red;
+    color: white;
+    margin: auto;
+    display: inline-block;
+    /* margin: 50px; */
+    font-size: 30px;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+  }
+  
+  
+  main a{
+color: white;
+text-decoration: none;
+  }
+  aside{
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2018/2-nature-wallpaper-grass.jpg");
+ 
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+  }
+  aside a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+  }
+div{
+    text-align: center;
+    color:black;
+    margin-top: 150px;
+}
+div h1,p{
+    font-size: 40px;
+}
+span{
+   position: absolute;
+   bottom: 0px;
+ left: 10px;
+ color: black;
+ font-size: 30px;
+}
